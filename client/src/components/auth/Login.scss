@@ -1,0 +1,16 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-size: 2rem;
+  input {
+    border: none;
+    padding: 10px;
+  }
+
+  .title {
+    margin-bottom: 3rem;
+  }
+}

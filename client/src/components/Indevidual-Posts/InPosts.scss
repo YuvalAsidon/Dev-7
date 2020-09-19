@@ -1,0 +1,41 @@
+.PostItem {
+	margin-top: 5rem;
+	padding: 5rem;
+	border: 0.1px solid #273746;
+	margin-bottom: 3rem;
+	background-color: #d6dbdf;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: -2px 4px 62px -32px rgba(0, 0, 0, 0.75);
+	border-radius: 6px;
+}
+.PostItem-button {
+	all: unset;
+	padding: 1rem;
+	color: #34495e;
+	background-color: #e5e7e9;
+	padding: 0.5rem;
+	margin-right: 15px;
+	border-radius: 10px;
+	margin-left: 15px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.postLink {
+	padding: 1rem;
+	color: #34495e;
+	background-color: #e5e7e9;
+	padding: 0.5rem;
+	margin-right: 15px;
+	border-radius: 10px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.postForm {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 3rem;
+}

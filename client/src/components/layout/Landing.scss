@@ -1,0 +1,34 @@
+.landing {
+	background-image: url('../../img/b1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+	min-height: 90vh;
+	&-form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 90vh;
+		color: white;
+	}
+	h1 {
+		font-size: 5rem;
+		background-image: linear-gradient(to right bottom, #34495e, #1c2833);
+		padding: 2rem;
+		border-radius: 2rem;
+		box-shadow: 1px 7px 5px rgba(0, 0, 0, 0.3);
+	}
+	button {
+		border: none;
+		padding: 1rem;
+		margin: 1rem;
+		width: 10rem;
+		color: white;
+		background-image: linear-gradient(to right bottom, #34495e, #1c2833);
+		border-radius: 1rem;
+		box-shadow: 1px 7px 5px rgba(0, 0, 0, 0.6);
+		font-size: 1rem;
+		font-weight: bolder;
+	}
+}

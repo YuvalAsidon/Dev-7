@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  &-input {
+    border: none;
+    padding: 0.8rem;
+  }
+  &-description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+  }
+  &-span {
+    font-size: 16px;
+    color: #1b1b1b;
+  }
+  .errors {
+    color: red;
+  }
+}

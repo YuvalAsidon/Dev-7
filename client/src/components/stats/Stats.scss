@@ -1,0 +1,33 @@
+.Stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-diagram {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+    background-color: #5d6d7e;
+    min-width: 80vh;
+    padding: 5rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 29px -8px rgba(0, 0, 0, 0.75);
+    margin-bottom: 2rem;
+  }
+  &-topfive {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    &-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

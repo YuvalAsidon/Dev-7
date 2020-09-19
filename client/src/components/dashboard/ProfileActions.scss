@@ -1,0 +1,9 @@
+.ProfileActions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30%;
+  button {
+    min-width: 10rem;
+  }
+}

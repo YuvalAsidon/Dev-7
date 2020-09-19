@@ -1,0 +1,20 @@
+.DashboardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: black;
+  font-size: 2rem;
+  min-height: 90vh;
+}
+.LinkName {
+  text-decoration: none;
+  margin-left: 10px;
+  color: black;
+  font-size: 3rem;
+  &:visited {
+    text-decoration: none;
+    color: black;
+  }
+}

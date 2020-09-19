@@ -1,0 +1,29 @@
+.nav {
+	display: flex;
+	//how it will be aligned along the main axis
+	justify-content: space-around;
+	//minimum hight
+	min-height: 5vh;
+	width: 100%;
+	//how it will be aligned along the cross axis
+	justify-items: right;
+	//to redient between to colors
+	background-image: linear-gradient(to right bottom, #34495e, #1c2833);
+	font-size: 2rem;
+	.link {
+		padding: 2rem;
+		color: #fef5e7;
+		text-decoration: none;
+	}
+	a {
+		text-decoration: none;
+		transition: 0.3s;
+		&:visited {
+			text-decoration: none;
+			color: #fef5e7;
+		}
+	}
+	.link:hover {
+		color: #85c1e9;
+	}
+}

@@ -1,0 +1,22 @@
+.commentItem {
+  display: flex;
+  margin-bottom: 2rem;
+  border: 0.1px solid #273746;
+  align-items: center;
+  color: #34495e;
+  background-color: #d6dbdf;
+  box-shadow: -2px 4px 62px -32px rgba(0, 0, 0, 0.75);
+  &-content {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10px;
+    width: 150px;
+  }
+}
+.commentForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+}
